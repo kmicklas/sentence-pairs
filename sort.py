@@ -5,6 +5,7 @@ import wordfreq
 
 if len(sys.argv) != 3:
     print('Usage: python3 sort.py target-lang pairs.csv')
+    sys.exit(1)
 
 targetLang = sys.argv[1]
 pairsPath = sys.argv[2]
